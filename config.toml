@@ -1,0 +1,34 @@
+baseURL = "https://www.zero0n.de/"
+languageCode = "en-us"
+title = "ゼロワン"
+theme = "hello-friend-ng"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+
+[params]
+  customCSS = ["/css/custom.css"]
+  justifyContent = true
+  enableThemeToggle = true
+  defaultTheme = "dark"
+  themeColor = "#252627"
+  homeSubtitle = "... irgendwas mit Computern und irgendwie auch Kunst und so ..."
+
+[params.portrait]
+  path = "/mr_fancy_pants.png"
+
+[params.logo]
+  logoMark     = ">"
+  logoText     = "cd /home/zero0ne"
+  logoHomeLink = "/"
+  logoCursorDisabled = true
+
+[menu]
+  [[menu.main]]
+    name = "About me"
+    pre = "about me"
+    url = "/about-me/"
+    weight = 1
+  [[menu.main]]
+    name = "Impressum"
+    pre = "impressum"
+    url = "/impressum/"
+    weight = 2
